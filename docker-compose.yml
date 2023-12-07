@@ -3,5 +3,5 @@ services:
   vuejs:
     build: .
     volumes:
-      - .:/app
-      - /app/node_modules
+      - D:\Prj\ClimbCraft\django\climbcraft\templates\climbcraft:/app
+    tty: true
